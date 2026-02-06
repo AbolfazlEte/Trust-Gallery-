@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>colors</title>
+    <meta charset="UTF-8">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        @font-face {
+            font-family: bebas;
+            src: url(galassest/BebasNeue-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: sum;
+            src: url(galassest/AlumniSansPinstripe-Regular.ttf);
+        }
+
+        @font-face {
+            font-family: sumit;
+            src: url(galassest/AlumniSansPinstripe-Italic.ttf);
+        }
+
+        body {
+            background-color: rgb(12, 8, 8);
+            color: white;
+            max-width: 100%;
+        }
+
+        h1,h3{
+            background-color: rgba(31, 17, 17, 0.442);
+            ;
+            color: white;
+            text-align: center;
+            font-family: bebas;
+            letter-spacing: 5px;
+            word-spacing: 7px;
+            font-size: 66px;
+            font-weight: bolder;
+            border-radius: 30px;
+            padding: 35px 0px;
+            text-wrap: nowrap;
+            overflow: hidden;
+        }
+        
+        h3{
+            background: none;
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+
+        #title {
+            width: 100%;
+            height: 100px;
+
+        }
+
+        #trust {
+            color: rgb(0, 255, 0);
+
+        }
+
+        img {
+            width: 300px;
+            border-radius: 5px;
+            transition: 1s;
+            margin-top: 20px;
+        }
+
+        img:hover {
+            transform: scale(1.03);
+            box-shadow: 0px 5px 70px 5px rgba(93, 77, 57, 0.885);
+        }
+
+        figure {
+            margin-top: 100px;
+            width: 29%;
+            border-radius: 10px;
+            min-width: 320px;
+            border: 1px solid white;
+            text-align: center;
+            transition: 1s;
+            display: flex;
+            align-content: space-evenly;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        figcaption {
+            font-family: Bebas;
+            font-size: 33px;
+            font-weight: 300;
+            letter-spacing: 2px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        #cap2 {
+            letter-spacing: 6px;
+            width: 100%;
+        }
+
+        #cap3 {
+            letter-spacing: 4px;
+        }
+
+        #fig1 {
+            text-align: center;
+            background: linear-gradient(to bottom left, rgba(30, 29, 29, 0.741) 25%, rgba(178, 55, 2, 0.714));
+        }
+
+        #fig2 {
+            background: linear-gradient(to bottom right, rgba(138, 85, 33, 0.489) 2%, rgba(44, 44, 98, 0.493));
+        }
+
+        #fig3 {
+            background: linear-gradient(to right bottom, rgb(0, 0, 0) 7%, rgba(98, 0, 0, 0.621));
+        }
+
+        summary {
+            font-family: sum;
+            font-weight: bolder;
+            font-size: 25px;
+            letter-spacing: 1px;
+            margin-top: 10px;
+            margin-bottom: 0px;
+
+        }
+
+        #img2 {
+            width: 295px;
+        }
+
+        #img2:hover {
+            margin-top: 25px;
+            box-shadow: 0px 5px 70px 1px rgba(239, 159, 66, 0.384);
+        }
+
+        #img3:hover {
+            box-shadow: 0px 5px 70px 10px rgba(99, 0, 0, 0.701);
+        }
+
+        p {
+            font-family: sumit;
+            width: 90%;
+            text-align: center;
+            margin-left: 21px;
+            margin-top: 5px;
+            font-weight: bold;
+            color: rgba(202, 202, 202, 0.653);
+            letter-spacing: 1.3px;
+        }
+
+        #st2 {
+            letter-spacing: 1.7px;
+            word-spacing: 2.5px;
+        }
+
+        footer{
+            background-color: #0f0e0e8a;
+            margin-top: 100px;
+        }
+
+        #divbut{
+            display: flex;
+            align-content:center;
+            justify-content: space-evenly;
+            font-family: sans-serif;
+        }
+
+        a {
+            width: 260px;
+            color: white;
+            background-color: rgba(21, 22, 31, 0.712);
+            border-radius: 25px;
+            letter-spacing: 2px;
+            font-size: large;
+            outline: 1px solid white;
+            transition: 0.5s;
+            text-decoration: none;
+            text-align: center;
+            margin-top: 10px;
+            padding: 17px 0px;
+        }
+
+        a:hover{
+            background-color: #e1e0e0;
+            color: black;
+            outline: 3px solid rgb(35, 39, 65);
+            width: 275px;
+            padding: 20px 2px;
+        }
+        
+        #khat{
+            position: relative;
+            top: 0px;
+            border: 3px solid white;
+        }
+
+        #lastt{
+            margin-left: 80px;
+            margin-top: 20px;
+        }
+        
+        main{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+       
+        details{
+            min-height: 200px;
+            overflow: hidden;
+            margin-top: 0;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header id="title">
+        <h1>The <span id="trust">Trust</span> Art Galley</h1>
+    </header>
+    <main id="divdiv">
+        <figure id="fig1">
+            <img src="galassest/burning.jpg" alt="Watching the end of the line">
+            <figcaption>Watching the end of the line</figcaption>
+            <details>
+                <summary>
+                    Story Behind The Drawing
+                </summary>
+                <p>
+                    The Emperor thought his emperorship was immortal—until the final uprising of the people he once believed even God Himself could not the table turn against him. Foolish of him not to know that there is no leader in this world with enough power to survive the force of fate. Now he believes his entire life was meaningless, as everything burns before his eyes while he can do nothing but watch—wearing his crown and imperial armor, the last remaining pieces of his fallen empire ...
+                </p>
+            </details>
+        </figure>
+        <figure id="fig2">
+            <img id="img2" src="galassest/falling.jpg" alt="Falling">
+            <figcaption id="cap2">FALLING</figcaption>
+            <details>
+                <summary>
+                    Story Behind The Drawing
+                </summary>
+                <p id="st2">
+                    The fallen angel still can’t believe what just happened to him. Being cast out from the place he believed he could call home, all because he refused to obey an order he never believed in. He is lost, overwhelmed by a storm of emotions—anger, confusion, disbelief, betrayal. Trapped between trying to understand what has happened and planning his next move
+                </p>
+            </details>
+        </figure>
+        <figure id="fig3">
+            <img id="img3" src="galassest/fighting.jpg" alt="Watching the end of the line">
+            <figcaption id="cap3">Still standing</figcaption>
+            <details>
+                <summary>
+                    Story Behind The Drawing
+                </summary>
+                <p>
+                    Which is better: dying like a true warrior, defending what you believe in with all your heart, or living as a coward? When victory is already in your hands, bravery comes easily—no being would run in such a moment. When there is still a chance to win, most people will stand by their beliefs and fight. But when all you see is inevitable destruction if you stay… will you die like a warrior, or live as a coward?
+                </p>
+            </details>
+        </figure>
+    </main>
+    <footer>
+        <hr id="khat">
+        <h3>Contact us</h3>
+        <div id="divbut">
+            <a href="#">Telegram</a>
+            <a href="#">Instagram</a>
+            <a href="#">X</a>
+            <a href="#">Linkedin</a>
+        </div>
+        <br><br><br>
+        <p id="lastt">&copy; All Copyrightes Goes To Trust Company &copy;</p>
+        <br>
+    </footer>
+</body>
+
+</html>
